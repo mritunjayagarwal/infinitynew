@@ -153,7 +153,7 @@ const Home = () => {
                       <img src={require('./Img/home/advanced/2.png')} alt="" />
                     </div>
                     <h1 className='advanced-heading'>Boost Liquidity</h1>
-                    <p className='advanced-para'>Purchase and stake LQXLP to accumulate protocol revenue and LQX bonuses.</p>
+                    <p className='advanced-para'>Purchase and stake MGNXLP to accumulate protocol revenue and MGNX bonuses.</p>
                   </div>
                 </div>
                 <div className='col-lg-4 col-md-6'>
@@ -162,7 +162,7 @@ const Home = () => {
                       <img src={require('./Img/home/advanced/3.png')} alt="" />
                     </div>
                     <h1 className='advanced-heading'>Invest</h1>
-                    <p className='advanced-para'>Deposit mLQX &amp; LQX to be eligible for generating protocol earnings and LQX rewards.</p>
+                    <p className='advanced-para'>Deposit mMGNX &amp; MGNX to be eligible for generating protocol earnings and MGNX rewards.</p>
                   </div>
                 </div>
               </div>
