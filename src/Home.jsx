@@ -20,7 +20,7 @@ const Home = () => {
                   </AnimationOnScroll>
                   <AnimationOnScroll animateIn="animate__fadeIn">
                     <h1 className='hero-heading'>Supercharged</h1>
-                    <p>for Traders</p>
+                    <h2>for Traders</h2>
                   </AnimationOnScroll>
                   <AnimationOnScroll animateIn="animate__fadeIn">
                     <p>Trade cryptocurrencies effortlessly with no price influence, leveraging up to 100x, and unified liquidity. The Margin Network manages the intricate details, guaranteeing you a streamlined DEX trading experience on our platform.</p>
