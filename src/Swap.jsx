@@ -96,7 +96,7 @@ function Swap() {
     </nav>
       <div className="Uniswap">
         <div style={{marginTop: "50px"}}>
-          <div className='section-heading swap-heading' style={{ "margin-bottom": "20px" }}>LiquiDex Swap Aggregator</div>
+          <div className='section-heading swap-heading' style={{ "margin-bottom": "20px" }}>MGNX AGGREGATOR</div>
           <p className='text-center swap-paragraph mx-auto'>Seamless, secure asset exchanges. Connect your wallet and elevate your trading experience.</p>
           <div className='d-flex align-items-center justify-content-center mt-5'>
             <div className='swap-wrap'>

@@ -2,19 +2,19 @@ const about = [
     {
         "id": 1,
         "heading": "Cost-Efficient Trading",
-        "description": "LQX identifies the optimal liquidity path, reducing overall expenses for traders and ensuring seamless position initiation.",
+        "description": "MGNX determines the best liquidity route, minimizing costs for traders and guaranteeing smooth position establishment.",
         "image": "1.png"
     },
     {
         "id": 2,
         "heading": "Intelligent Position Allocation",
-        "description": "LQX intelligently directs positions to appropriate underlying trading protocols, considering market conditions, position dimensions, and user choices",
+        "description": "MGNX smartly guides positions to suitable underlying trading systems, taking into account market conditions, position sizes, and user preferences.",
         "image": "2.png"
     },
     {
         "id": 3,
         "heading": "Enhanced Leverage",
-        "description": "While LQX offers up to 100x leverage within its native pool, it can also provide extra margin for traders to achieve up to 100x leverage on integrated underlying protocols",
+        "description": "While MGNX provides up to 100x leverage within its native pool, it also has the capability to offer additional margin, enabling traders to reach up to 100x leverage on incorporated underlying systems.",
         "image": "3.png"
     }
 ]

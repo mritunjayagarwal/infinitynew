@@ -16,14 +16,14 @@ const Home = () => {
               <div className='col-lg-6'>
                 <div>
                   <AnimationOnScroll animateIn="animate__fadeIn">
-                    <h1 className='hero-highlight text-uppercase'>DECENTRALIZED SELF-CUSTODIAL LEVERAGED TRADING</h1>
+                    <h1 className='hero-highlight text-uppercase'>SELF-CUSTODIAL DECENTRALIZED LEVERAGE TRADING PLATFORM</h1>
                   </AnimationOnScroll>
                   <AnimationOnScroll animateIn="animate__fadeIn">
                     <h1 className='hero-heading'>Supercharged</h1>
                     <p>for Traders</p>
                   </AnimationOnScroll>
                   <AnimationOnScroll animateIn="animate__fadeIn">
-                    <p>Trade crypto seamlessly with zero price impact, up to 100x leverage, and combined liquidity. LQX protocol handles the complexities, ensuring you enjoy optimized DEX trading on our platform.</p>
+                    <p>Trade cryptocurrencies effortlessly with no price influence, leveraging up to 100x, and unified liquidity. The Margin Network manages the intricate details, guaranteeing you a streamlined DEX trading experience on our platform.</p>
                   </AnimationOnScroll>
                   <button className='btn hero-btn mb-5'>Start Trading</button>
                 </div>

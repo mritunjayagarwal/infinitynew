@@ -20,7 +20,7 @@ const tokenomics = [
     {
         "id": 4,
         "heading": "Liquidity Aggregation",
-        "description": "LQX directs positions to optimal liquidity sources to accommodate desired sizes.",
+        "description": "MGNX routes positions to the best liquidity sources to fulfill desired volumes.",
         "image": "toke-4.svg"
     },
     {
