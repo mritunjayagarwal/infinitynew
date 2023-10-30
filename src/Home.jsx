@@ -29,107 +29,111 @@ const Home = () => {
                 </div>
               </div>
               <div className='col-lg-6 d-flex align-items-center justify-content-center'>
-                  <img src={require(`./Img/home/bitcoin-logo.png`)} className='img-fluid' alt="" />
+                <img src={require(`./Img/home/bitcoin-logo.png`)} className='img-fluid' alt="" />
               </div>
             </div>
           </div>
-          <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style = {{"width": "100%"}} alt="" />
+          <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style={{ "width": "100%" }} alt="" />
         </section>
-        <section className='tokenomics'>
-          <div className='container'>
-            <AnimationOnScroll animateIn="animate__fadeIn">
-              <h1 className='text-center section-heading'>Level Up Every Trade</h1>
-            </AnimationOnScroll>
-            <div className='row d-flex justify-content-center'>
-              {
-                tokenomics.map((tokenomic) => {
-                  const { id, heading, description, image } = tokenomic;
-                  return (
-                    <div className='col-lg-6 col-md-6 mt-4' key={id}>
-                      <AnimationOnScroll animateIn="animate__fadeInUp">
-                        <div className='tokenomic-item'>
-                            <img src={require(`./Img/home/${image}`)} className='toke-img' alt="" />
-                          <div className='p-3'>
-                            <h1 className='tokenomic-heading'>{heading}</h1>
-                            <p className='tokenomic-para'>{description}</p>
-                          </div>
-                          <img src={require(`./Img/home/polygon.png`)} className='tokenomic-polygon' alt="" />
-                        </div>
-                      </AnimationOnScroll>
-                    </div>
-                  )
-                })
-              }
-            </div>
-          </div>
-        </section>
-        <section className='about'>
-          <div className='container'>
-            <AnimationOnScroll animateIn="animate__fadeIn">
-              <h1 className='text-center section-heading'>Advanced Platform for Enhanced Leverage Trading</h1>
-            </AnimationOnScroll>
-            <div>
-              {
-                about.map((item) => {
-                  const { id, heading, description, image } = item;
-                  return (
-                    <div className="row mt-5" key={id}>
-                      <div className={`col-lg-6 col-md-6 d-flex align-items-center ${heading === 'Intelligent Position Allocation' ? 'order-md-2' : ''}`}>
-                        <AnimationOnScroll animateIn="animate__fadeIn">
-                          <div>
-                            <h1 class="about-heading">{heading}</h1>
-                            <p className='about-para'>{description}</p>
-                          </div>
-                        </AnimationOnScroll>
-                      </div>
-                      <div className='col-lg-6 col-md-6 d-flex align-items-center'>
-                        <AnimationOnScroll animateIn="animate__fadeIn">
-                          <img src={require(`./Img/home/About/${image}`)} className='img-fluid' alt="" />
-                        </AnimationOnScroll>
-                      </div>
-                    </div>
-                  )
-                })
-              }
-            </div>
-          </div>
-        </section>
-        <section className="features-main">
-          <div className='features'>
+        <main className='tokenomics'>
+          <section>
             <div className='container'>
-              <div className='row'>
-                <div className='col-lg-4'>
-                  <img src={require('./Img/home/feature/feature-main.png')} className='img-fluid' alt="" />
-                </div>
-                <div className='col-lg-8 order-md-2'>
-                  <div className='features-wrapper'>
-                    <AnimationOnScroll animateIn="animate__fadeIn">
-                      <h1 className='section-heading text-left'>Innovative Tech Powers Each Feature</h1>
-                    </AnimationOnScroll>
-                    <div className='row'>
-                      {
-                        features.map((feature) => {
-                          const { id, heading, description, image } = feature;
-                          return (
-                            <div className='col-lg-6 col-md-6' key={id}>
-                              <AnimationOnScroll animateIn="animate__fadeInUp">
-                                <div className='feature-card'>
-                                  <img src={require(`./Img/home/feature/${image}`)} className='img-fluid mb-3' alt="" />
-                                  <h1 className='feature-heading mb-3'>{heading}</h1>
-                                  <p className='feature-para'>{description}</p>
-                                </div>
-                              </AnimationOnScroll>
+              <AnimationOnScroll animateIn="animate__fadeIn">
+                <h1 className='text-center section-heading'>Level Up Every Trade</h1>
+              </AnimationOnScroll>
+              <div className='row d-flex justify-content-center'>
+                {
+                  tokenomics.map((tokenomic) => {
+                    const { id, heading, description, image } = tokenomic;
+                    return (
+                      <div className='col-lg-6 col-md-6 mt-4' key={id}>
+                        <AnimationOnScroll animateIn="animate__fadeInUp">
+                          <div className='tokenomic-item'>
+                            <img src={require(`./Img/home/${image}`)} className='toke-img' alt="" />
+                            <div className='p-3'>
+                              <h1 className='tokenomic-heading'>{heading}</h1>
+                              <p className='tokenomic-para'>{description}</p>
                             </div>
-                          )
-                        })
-                      }
+                            <img src={require(`./Img/home/polygon.png`)} className='tokenomic-polygon' alt="" />
+                          </div>
+                        </AnimationOnScroll>
+                      </div>
+                    )
+                  })
+                }
+              </div>
+            </div>
+          </section>
+          <section className='about'>
+            <div className='container'>
+              <AnimationOnScroll animateIn="animate__fadeIn">
+                <h1 className='text-center section-heading'>Advanced Platform for Enhanced Leverage Trading</h1>
+              </AnimationOnScroll>
+              <div>
+                {
+                  about.map((item) => {
+                    const { id, heading, description, image } = item;
+                    return (
+                      <div className="row mt-5" key={id}>
+                        <div className={`col-lg-6 col-md-6 d-flex align-items-center ${heading === 'Intelligent Position Allocation' ? 'order-md-2' : ''}`}>
+                          <AnimationOnScroll animateIn="animate__fadeIn">
+                            <div>
+                              <h1 class="about-heading">{heading}</h1>
+                              <p className='about-para'>{description}</p>
+                            </div>
+                          </AnimationOnScroll>
+                        </div>
+                        <div className='col-lg-6 col-md-6 d-flex align-items-center'>
+                          <AnimationOnScroll animateIn="animate__fadeIn">
+                            <img src={require(`./Img/home/About/${image}`)} className='img-fluid' alt="" />
+                          </AnimationOnScroll>
+                        </div>
+                      </div>
+                    )
+                  })
+                }
+              </div>
+            </div>
+          </section>
+          <section className="features-main">
+            <div className='features'>
+              <div className='px-5'>
+                <div className='row'>
+                  <div className='col-lg-4'>
+                    <img src={require('./Img/home/feature/feature-main.png')} className='img-fluid' alt="" />
+                  </div>
+                  <div className='col-lg-8 order-md-2'>
+                    <div className='features-wrapper'>
+                      <AnimationOnScroll animateIn="animate__fadeIn">
+                        <h1 className='section-heading text-left'>Innovative Tech Powers Each Feature</h1>
+                      </AnimationOnScroll>
+                      <div className='row'>
+                        {
+                          features.map((feature) => {
+                            const { id, heading, description, image } = feature;
+                            return (
+                              <div className='col-lg-6 col-md-6' key={id}>
+                                <AnimationOnScroll animateIn="animate__fadeInUp">
+                                  <div className='feature-card'>
+                                    <img src={require(`./Img/home/feature/${image}`)} className='img-fluid mb-3' alt="" />
+                                    <h1 className='feature-heading mb-3'>{heading}</h1>
+                                    <p className='feature-para'>{description}</p>
+                                  </div>
+                                </AnimationOnScroll>
+                              </div>
+                            )
+                          })
+                        }
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </main>
+        <main className='bottom-sec'>
+        <img src={require('./Img/home/advanced/advanced-bg.png')} className='advanced-bg' alt="" />
         <section>
           <div className='container'>
             <AnimationOnScroll animateIn="animate__fadeIn">
@@ -232,6 +236,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        </main>
       </main>
     </>
   )
