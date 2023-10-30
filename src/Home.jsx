@@ -35,11 +35,11 @@ const Home = () => {
           </div>
           <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style={{ "width": "100%" }} alt="" />
         </section>
-        <main className='tokenomics'>
-          <section>
+        <main>
+          <section className='tokenomics'>
             <div className='container'>
               <AnimationOnScroll animateIn="animate__fadeIn">
-                <h1 className='text-center section-heading'>Level Up Every Trade</h1>
+                <h1 className='text-center section-heading'>Level Up Every <span className='section-highlight'>Trade</span></h1>
               </AnimationOnScroll>
               <div className='row d-flex justify-content-center'>
                 {
@@ -97,15 +97,15 @@ const Home = () => {
           </section>
           <section className="features-main">
             <div className='features'>
-              <div className='px-5'>
+              <div className='container'>
                 <div className='row'>
-                  <div className='col-lg-4'>
+                  <div className='col-lg-4 d-flex justify-content-center align-items-center'>
                     <img src={require('./Img/home/feature/feature-main.png')} className='img-fluid' alt="" />
                   </div>
                   <div className='col-lg-8 order-md-2'>
                     <div className='features-wrapper'>
                       <AnimationOnScroll animateIn="animate__fadeIn">
-                        <h1 className='section-heading text-left'>Innovative Tech Powers Each Feature</h1>
+                        <h1 className='section-heading text-left mt-3'>New <span className='section-highlight'>Technology</span><br /> Behind Every Feature</h1>
                       </AnimationOnScroll>
                       <div className='row'>
                         {
@@ -171,7 +171,7 @@ const Home = () => {
         </section>
         <section>
           <div className='container'>
-            <h1 className='text-center section-heading'>Integration with Leading DEX Swaps</h1>
+            <h1 className='text-center section-heading section-highlight'>Backers</h1>
             <div className='row mt-5'>
               <div className='col-lg-3 col-md-4 col-6 text-center'>
                 <AnimationOnScroll animateIn="animate__fadeIn">
@@ -236,6 +236,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style={{ "width": "100%" }} alt="" />
         </main>
       </main>
     </>

@@ -53,11 +53,11 @@ function Swap() {
     primary: '#fff',
     secondary: '#fff',
     interactive: '#fff',
-    container: '#040818',
-    module: '#040818',
-    accent: '#0054c2',
+    container: '#000',
+    module: '#000',
+    accent: '#1AE050',
     outline: '#fff',
-    dialog: '#040818',
+    dialog: '#000',
     fontFamily: 'Manrope',
     borderRadius: 20
   }
@@ -94,8 +94,8 @@ function Swap() {
         </div>
       </div>
     </nav>
-      <div className="Uniswap d-flex align-items-center justify-content-center">
-        <div style={{marginTop: "-150px"}}>
+      <div className="Uniswap">
+        <div style={{marginTop: "50px"}}>
           <div className='section-heading swap-heading' style={{ "margin-bottom": "20px" }}>LiquiDex Swap Aggregator</div>
           <p className='text-center swap-paragraph mx-auto'>Seamless, secure asset exchanges. Connect your wallet and elevate your trading experience.</p>
           <div className='d-flex align-items-center justify-content-center mt-5'>
@@ -109,6 +109,7 @@ function Swap() {
             </div>
           </div>
         </div>
+        <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style={{ "width": "100%" }} alt="" />
       </div>
     </div>
   );
